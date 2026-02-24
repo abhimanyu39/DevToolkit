@@ -61,5 +61,8 @@ export function generateSiteMetadata(): Metadata {
       card: "summary_large_image",
     },
     metadataBase: new URL(SITE_URL),
+    verification: {
+      google: "6VxZe8gUkqehUUW86gDWtFCCF5wfz9YdjSNo2bPpcbE",
+    },
   };
 }
