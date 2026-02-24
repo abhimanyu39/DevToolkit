@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { ToolDefinition } from "../tools/types";
 import { getCategoryById } from "../tools/categories";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://devtoolkit.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://dev-toolkit-five.vercel.app";
 const SITE_NAME = "DevToolkit";
 
 export function generateToolMetadata(tool: ToolDefinition): Metadata {

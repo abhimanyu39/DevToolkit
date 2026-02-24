@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { toolRegistry } from "@/lib/tools/registry";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://devtoolkit.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://dev-toolkit-five.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolPages = toolRegistry.map((tool) => ({

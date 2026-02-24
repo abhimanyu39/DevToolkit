@@ -1,6 +1,6 @@
 import type { ToolDefinition } from "../tools/types";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://devtoolkit.dev";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://dev-toolkit-five.vercel.app";
 
 export function generateToolJsonLd(tool: ToolDefinition) {
   return {
