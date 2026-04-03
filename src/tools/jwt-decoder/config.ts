@@ -7,7 +7,7 @@ export const jwtDecoderConfig: ToolDefinition = {
   shortName: "JWT Decoder",
   description: "Free online JWT decoder. Decode JSON Web Tokens, inspect header and payload, check expiration. No signup required.",
   category: "testers",
-  keywords: ["jwt decoder", "jwt debugger", "decode jwt", "json web token decoder"],
+  keywords: ["jwt decoder", "jwt debugger", "decode jwt", "json web token decoder", "jwt decoder online", "jwt parser", "jwt token decoder", "jwt validator", "jwt inspector", "jwt viewer", "jwt decode online free", "jwt expiration checker", "jwt payload decoder"],
   icon: "ShieldCheck",
   component: () => import("./component"),
   relatedSlugs: ["base64-encoder-decoder", "json-validator", "regex-tester"],

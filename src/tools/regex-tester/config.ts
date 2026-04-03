@@ -7,7 +7,7 @@ export const regexTesterConfig: ToolDefinition = {
   shortName: "Regex Tester",
   description: "Free online regex tester with real-time match highlighting, capture groups, and flag toggles. Test your regular expressions instantly.",
   category: "testers",
-  keywords: ["regex tester", "regular expression tester", "regex debugger", "regex online"],
+  keywords: ["regex tester", "regular expression tester", "regex debugger", "regex online", "regex tester online", "regex checker", "regex validator", "regex builder", "test regex online", "regex matcher", "regex pattern tester", "regexp tester", "regex playground"],
   icon: "Regex",
   component: () => import("./component"),
   relatedSlugs: ["json-validator", "jwt-decoder", "password-generator"],

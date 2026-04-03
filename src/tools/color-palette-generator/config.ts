@@ -7,7 +7,7 @@ export const colorPaletteConfig: ToolDefinition = {
   shortName: "Color Palette",
   description: "Free online color palette generator. Create harmonious color palettes with HEX, RGB, and HSL values. Multiple harmony types.",
   category: "generators",
-  keywords: ["color palette", "color scheme generator", "color harmony", "hex color palette"],
+  keywords: ["color palette", "color scheme generator", "color harmony", "hex color palette", "color palette generator", "color palette generator online", "color picker", "color combination generator", "color palette maker", "random color palette", "complementary colors", "color wheel", "rgb color palette"],
   icon: "Pipette",
   component: () => import("./component"),
   relatedSlugs: ["css-gradient-generator", "css-beautifier", "qr-code-generator"],

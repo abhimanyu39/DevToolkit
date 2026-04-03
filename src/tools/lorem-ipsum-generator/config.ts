@@ -7,7 +7,7 @@ export const loremIpsumConfig: ToolDefinition = {
   shortName: "Lorem Ipsum",
   description: "Free online Lorem Ipsum generator. Generate placeholder text by paragraphs, sentences, or words. Configurable count.",
   category: "generators",
-  keywords: ["lorem ipsum", "placeholder text", "dummy text", "lorem ipsum generator"],
+  keywords: ["lorem ipsum", "placeholder text", "dummy text", "lorem ipsum generator", "lipsum generator", "random text generator", "filler text", "sample text generator", "dummy text generator", "lorem ipsum copy paste", "placeholder text generator", "lorem ipsum online"],
   icon: "AlignLeft",
   component: () => import("./component"),
   relatedSlugs: ["password-generator", "uuid-generator", "markdown-preview"],

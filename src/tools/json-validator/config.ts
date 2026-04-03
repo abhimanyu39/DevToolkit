@@ -7,7 +7,7 @@ export const jsonValidatorConfig: ToolDefinition = {
   shortName: "JSON Validator",
   description: "Free online JSON validator. Validate JSON syntax with detailed error messages, line numbers, and data statistics.",
   category: "validators",
-  keywords: ["json validator", "validate json", "json checker", "json lint"],
+  keywords: ["json validator", "validate json", "json checker", "json lint", "json validator online", "json syntax checker", "json error checker", "jsonlint online", "json verifier", "json format checker", "fix json online", "check json syntax"],
   icon: "CheckCircle",
   component: () => import("./component"),
   relatedSlugs: ["json-formatter", "yaml-to-json", "jwt-decoder"],

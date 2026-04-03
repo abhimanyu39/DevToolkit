@@ -7,7 +7,7 @@ export const qrCodeConfig: ToolDefinition = {
   shortName: "QR Code Generator",
   description: "Free online QR code generator. Create QR codes from text or URLs. Download as PNG or SVG with custom colors.",
   category: "generators",
-  keywords: ["qr code generator", "qr code maker", "create qr code", "qr code online"],
+  keywords: ["qr code generator", "qr code maker", "create qr code", "qr code online", "free qr code generator", "qr code creator", "generate qr code", "qr code generator online free", "custom qr code", "url to qr code", "text to qr code", "qr code download", "qr code builder"],
   icon: "QrCode",
   component: () => import("./component"),
   relatedSlugs: ["password-generator", "uuid-generator", "base64-encoder-decoder"],
